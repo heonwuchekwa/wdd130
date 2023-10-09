@@ -34,13 +34,13 @@ nav a:hover {
     text-decoration: none;
 }
 #background {
-    background-color: #2ac7cf;
+    background-color: #BFEDEF;
 }
 .msg {
-    background-color: blue;
+    background-color: #F2EFEA;
 }
 footer {
-    background-color: red;
+    background-color:  #F2EFEA;
 }
 .home-title {
     color: black;
