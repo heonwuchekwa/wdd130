@@ -85,4 +85,9 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-
+.card-img {
+    box-sizing: border-box;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #ec9f05;
+}
