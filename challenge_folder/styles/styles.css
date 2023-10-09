@@ -1,0 +1,46 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: white
+}
+
+h1:hover{
+    color:black
+}
+
+#Page{
+    margin: 0 auto;
+    display: block;
+    width: 60%
+}
+
+p{
+    text-align: center;
+}
+
+.white {
+    color: white
+}
+
+ul li{
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+ol{
+    text-align: center;
+}
+
+img{
+    width:200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.color{
+    color: black;
+} 
