@@ -1,13 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
+font
 div {
     max-width: 1600px;
     margin: 0 auto;
+}
+h1 {
+    margin: 50px 0;
+    font-size: 2em;
+    margin-top: 10px;
 }
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 25px;
 }
-#hero-msg h1, #hero-msg h4{
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 .button-box {
@@ -20,7 +28,7 @@ main section {
     height: 725px;
 }
 body {
-    background-color: yellow;
+    background-color: yellow;  
 }
 header {
     background-color: #25283d;
@@ -32,15 +40,21 @@ nav a:hover {
 .book, .join {
     background-color: #ec9f05;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
 }
 #background {
     background-color: #BFEDEF;
 }
 .msg {
     background-color: #F2EFEA;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color:  #F2EFEA;
+    margin-top: 300px;
 }
 .home-title {
     color: black;
@@ -50,18 +64,25 @@ h4 {
 }
 .book, .join {
     color: black;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     color: black;
 }
 .msg h2 {
     color: black;
+    margin: 0;
 }
 .msg p {
     color: black;
+    font-size: 1em;
+    padding-bottom: 15px;
 }
 footer {
-    color: black;
+    background-color: steelblue;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: black;
@@ -75,12 +96,14 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 footer p {
     font-size: 1.2em;
+    padding: 25px;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -90,4 +113,21 @@ footer p a:hover {
     border-style: solid;
     border-radius: 30px;
     border-color: #ec9f05;
+}
+nav {
+    background-color: steelblue;
+}
+nav {
+    padding: 25px;
+}
+p {
+    margin: 50px auto;
+}
+body {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#logo_link {
+    padding-top: 5px;
 }
