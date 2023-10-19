@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap');
 font
+#content {
+    max-width: 1600px;
+    margin: 0 auto
+}
 h1 {
     margin: 50px 0;
     font-size: 2em;
@@ -20,11 +24,8 @@ nav a {
 .button-box {
     text-align: center;
 }
-main section {
+main_section {
     text-align: center;
-}
-#background {
-    height: 725px;
 }
 body {
     background-color: yellow;
@@ -51,6 +52,7 @@ nav a:hover {
 }
 #background {
     background-color: #BFEDEF;
+    height: 725px; 
 }
 .msg {
     background-color: #F2EFEA;
@@ -125,7 +127,7 @@ nav {
 footer.social img{
     padding-top: 15px;
 }
-main section img {
+main_section img {
     box-sizing: border-box;
 }
 .rivers-card,
