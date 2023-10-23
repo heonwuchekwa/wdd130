@@ -1,0 +1,15 @@
+.parent {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.h2 {
+    background-color: white;
+    padding: 20px;
+    font-size: 0.77rem;
+    line-height: 1:7;
+img {
+    width: 120px;
+    height: 120px;
+    align-items: right;
+}
