@@ -7,7 +7,7 @@ font
 h1 {
     margin: 50px 0;
     font-size: 2em;
-    margin-top: 10px;
+    margin-top: 10px;    
 }
 h2 {
     margin: 0;
@@ -64,7 +64,7 @@ footer {
     margin-top: 300px;
 }
 .home-title {
-    color: black;
+    color: white;
 }
 h4 {
     color: black;
@@ -161,7 +161,7 @@ nav {
     grid-row: 1/2;
 }
 #hero-msg h4 {
-    color: red;
+    color: white;
 }
 #hero {
     display: grid;
