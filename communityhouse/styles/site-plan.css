@@ -5,21 +5,21 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #B9016F   ;
-  --secondary-color: #FF9505 ;
-  --accent1-color: #B05353;
-  --accent2-color: #016FB9;
+  --primary-color: #BA3B46 ;
+  --secondary-color: #BDBF09 ;
+  --accent1-color: #BF6900;
+  --accent2-color: #F2B7C6;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'Poppins', sans-serif;
   --paragraph-font: 'Libre Franklin', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #EC4E20;  /* headlines on a white background */ 
-  --headline-color-on-color: #FF9505; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #B9016F; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #000000; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #016FB9  ;
+  --headline-color-on-white: #5B85AA;  /* headlines on a white background */ 
+  --headline-color-on-color: #BA3B46; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #000 ; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #000; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #3F88C5  ;
   --nav-link-color: #000;
   --nav-background-color: #FF9505;
   --nav-hover-link-color: #fff;
