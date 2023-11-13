@@ -261,6 +261,11 @@ footer {
     box-shadow: 5px 5px 10px red;
 }
 
+#card-img {
+    width: 100%;
+    height: 300px;
+}
+
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
