@@ -152,7 +152,7 @@ main section img {
 
 .rivers-card,
 .camping-card,
-.rapids-card {
+#rapids-card {
     margin: 30px 0;
 }
 
@@ -374,9 +374,11 @@ footer {
     margin: 0 20px;
 }
 
-.rapids {
+#rapids {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 0 36px;
 }
 
 .activity-text, .activity-header {
