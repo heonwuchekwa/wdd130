@@ -1,0 +1,71 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: grid;
+}
+body {
+    background-color:#F2B7C6;
+    font-size: 18px;
+    padding: 0;
+}
+.home-title {
+    color: #000;
+}
+.logo {
+    width: 150px;
+}
+nav a {
+    text-align: center;
+    color:#000;
+    text-decoration: none;
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #BF6900; 
+}
+nav a {
+    float: right;
+}
+nav a {
+    display: block;
+    
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+} 
+h1 {
+    margin: 50px 0;
+    font-size: 2em;
+    margin-top: 10px; 
+    text-align: center; 
+}
+p {
+    text-align: justify;
+}
+main section {
+    text-align: center;
+}
+.house-image {
+   display: block;
+   margin-right: auto;
+   margin-left: auto;
+}
+.housing-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;   
+}
+footer {
+    background-color: #BA3B46;
+    padding: 25px 50px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a:hover {
+    color: white
+}
