@@ -1,6 +1,6 @@
 #content {
     max-width: 1600px;
-    margin: 0 auto;
+    margin:  auto;
     display: grid;
 }
 body {
@@ -47,6 +47,7 @@ p {
 }
 main section {
     text-align: center;
+    width: fit-content;
 }
 .house-image {
    display: block;
@@ -68,4 +69,12 @@ footer {
 }
 footer a:hover {
     color: white
+}
+footer p {
+    font-size: 1.2em;
+    padding: 25px;
+    color: white;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
