@@ -13,6 +13,8 @@ body {
 }
 .logo {
     width: 150px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 nav a {
     text-align: center;
@@ -44,10 +46,12 @@ h1 {
 }
 p {
     text-align: justify;
+    margin: 0 12px;
+    margin-top: 13px;
+    margin-bottom: 13px;
 }
 main section {
     text-align: center;
-    width: fit-content;
 }
 .house-image {
    display: block;
