@@ -3,6 +3,10 @@
     margin:  auto;
     display: grid;
 }
+header {
+    background-color: #BA3B46;
+    align-items: center;
+}
 body {
     background-color:#F2B7C6;
     font-size: 18px;
@@ -41,7 +45,7 @@ nav a {
     justify-content: space-around;
 }
 nav a:hover {
-    background-color: #BF6900; 
+    background-color: #fff; 
 }
 nav a {
     float: right;
