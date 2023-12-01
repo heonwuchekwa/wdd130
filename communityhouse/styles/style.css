@@ -7,14 +7,30 @@ body {
     background-color:#F2B7C6;
     font-size: 18px;
     padding: 0;
+    align-items: center;
 }
 .home-title {
     color: #000;
 }
 .logo {
-    width: 150px;
-    margin-left: 20px;
-    margin-top: 30px;
+    width: 100px;
+}
+#logo_link {
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+}
+.home-msg {
+    display: grid;
+    grid-template:auto;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 50px 10px;
+}
+.home-msg p {
+    grid-column: 2/10;
+}
+.home-msg h1 {
+    grid-column: 1/-1;
 }
 nav a {
     text-align: center;
@@ -45,23 +61,18 @@ h1 {
     text-align: center; 
 }
 p {
-    text-align: justify;
-    margin: 0 12px;
-    margin-top: 13px;
-    margin-bottom: 13px;
+    margin: 2em;
 }
 main section {
     text-align: center;
 }
 .house-image {
-   display: block;
-   margin-right: auto;
-   margin-left: auto;
+   grid-column: 2/10;
+   width: 100%;
 }
 .housing-img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;   
+    grid-column: 4/8;
+    justify-self: center;   
 }
 footer {
     background-color: #BA3B46;
