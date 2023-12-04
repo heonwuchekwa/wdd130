@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Poppins&display=swap');
+
 #content {
     max-width: 1600px;
     margin:  auto;
@@ -12,6 +14,10 @@ body {
     font-size: 18px;
     padding: 0;
     align-items: center;
+}
+body { font-family: 'Libre Franklin', sans-serif; 
+}
+h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif;
 }
 .home-title {
     color: #000;
@@ -86,14 +92,14 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-footer a:hover {
-    color: white
-}
+footer a { color: #fff;
+     text-decoration: none,
+ }
 footer p {
     font-size: 1.2em;
     padding: 25px;
     color: white;
 }
 footer p a:hover {
-    text-decoration: underline;
-}
+     text-decoration: underline;
+     color: #fcff06; }
