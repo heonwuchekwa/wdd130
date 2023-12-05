@@ -103,3 +103,33 @@ footer p {
 footer p a:hover {
      text-decoration: underline;
      color: #fcff06; }
+
+/* <-- --------page2-------------------- --> */
+
+#housing{
+    width: 500px;
+    height: 400px;
+    margin: 0 57px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#housing-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.value-msg{
+    display: grid;
+    grid-template: auto;
+    /* grid-template-columns: repeat(10, 1fr); */
+}
+
+.value-msg h1{
+    margin: 0px;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-left: 32px;
+    text-align: left;
+}
