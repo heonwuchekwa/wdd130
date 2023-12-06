@@ -51,7 +51,7 @@ nav a {
     justify-content: space-around;
 }
 nav a:hover {
-    background-color: #fff; 
+    background-color: #FF9505; 
 }
 nav a {
     float: right;
@@ -102,7 +102,7 @@ footer p {
 }
 footer p a:hover {
      text-decoration: underline;
-     color: #fcff06; }
+     color: #FF9505; }
 
 /* <-- --------page2-------------------- --> */
 #content {
