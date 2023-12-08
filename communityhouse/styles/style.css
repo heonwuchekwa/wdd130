@@ -109,7 +109,6 @@ footer p a:hover {
     max-width: 1600px;
     margin:  auto;
     display: grid;
-
 #housing {
     width: 500px;
     height: 400px;
@@ -117,23 +116,33 @@ footer p a:hover {
     align-items: center;
     margin-top: 20px;
 }
-
 #housing-img {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
-
-.value-msg{
+.value-msg {
     display: grid;
     grid-template: auto;
     /* grid-template-columns: repeat(10, 1fr); */
 }
-
-.value-msg h1{
+.value-msg h1 {
     margin: 0px;
     font-size: 2em;
     margin-top: 20px;
     margin-left: 32px;
     text-align: left;
+}
+/* <-- --------page3------------- --> */
+#content {
+    max-width: 1600px;
+    margin:  auto;
+    display: grid;
+}
+#housing-image {
+    width: 800px;
+    height: 500px;
+    display: block;
+    margin-top: 40px;
+    margin-left: auto; 
+    margin-right: auto; 
 }
