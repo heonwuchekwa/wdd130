@@ -138,11 +138,15 @@ footer p a:hover {
     margin:  auto;
     display: grid;
 }
+#p {
+    text-align: center;
+}
+
 #housing-image {
     width: 800px;
     height: 500px;
     display: block;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-left: auto; 
     margin-right: auto; 
 }
