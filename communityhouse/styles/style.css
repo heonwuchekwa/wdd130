@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Poppins&display=swap');
-
-#content {
-    max-width: 1600px;
-    margin:  auto;
-    display: grid;
-}
 header {
     background-color: #BA3B46;
     align-items: center;
@@ -105,10 +99,6 @@ footer p a:hover {
      color: #FF9505; }
 
 /* <-- --------page2-------------------- --> */
-#content {
-    max-width: 1600px;
-    margin:  auto;
-    display: grid;
 #housing {
     width: 500px;
     height: 400px;
@@ -140,8 +130,7 @@ footer p a:hover {
 }
 #p {
     text-align: center;
-}
-
+} 
 #housing-image {
     width: 800px;
     height: 500px;
